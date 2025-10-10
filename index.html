@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Anu's Portfolio </title>
+  <link href="styles.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#project">Project</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+
+ <main>
+    <section class = "about-me" id = "home">
+        <div>
+        
+            <h1 title="name2"> > Anu Peddada</h4>
+            
+            <p class="desc"> Hi! My name is Anu Peddada and I am a sophmore at WashU studying Business + Computer Science. I am intrested in Web Dev, and building really cool projects and website (like this one!). Keep scrolling to see my projects and contact information. </p>
+
+            <img src="headshot.JPG" alt = "Anu's Headshot Picture">
+            <a href="resume.png"> Click Here to view my Resume!</a>
+        </div>
+
+    </section>
+
+    <section class = "project-me" id = "project">
+        <div>    
+            <h1 title="name2"> My Projects</h4>  
+        <ul>
+            <li>
+                <strong> MPR Communication Tool</strong><br>
+            <p> Developed and deployed a custom follow-up communication tool integrated into loan origination software, enabling individualized messaging for stakeholders per loan order. Strategically designed an input interaction box to optimize data entry, improving downstream data organization and visualization into Snowflake and DOMO. </p>
+            </li>
+            <li>
+                <strong> Custom Terminal Emulator</strong><br>
+                <p>Collaborated with a team to build a modular file system and terminal emulator in C++ using OOP and design patterns (Factory, Command, Proxy, Visitor, Strategy). Implemented core commands (ls, rm, cat, cp, etc.), password protection, and macro command support. Focused on extensibility, clean architecture, and real-world system design principles</p>
+            </li>
+            <li>
+                <strong> Nail Salon Booking System </strong><br>
+                <p>Developed digital booking system for 10 salons, to help nail salons increase productivity and organize day-to-day business activities, streamlining efficiency of community business practices</p>
+            </li>
+        </ul>   
+        </div>
+    </section>
+
+
+    <section class = "contact-me" id = "contact">
+        <h1 title="name2"> Contact Information</h4>  
+
+            <h2>Contact</h2>
+            <table>
+                <tr>
+                    <td>Email:</td>
+                    <td>a.peddadad@wustl.edu</td>
+                </tr>
+                <tr>
+                    <td>Phone: </td>
+                    <td>000-000-0000</td>
+                </tr>
+            </table>
+
+            <form>
+                <h2> Contact Submit Form</h2>
+                <input type="text" placeholder="Enter your email"  id="name" name="name">
+                <button type="submit" >Submit</button>
+                
+
+            </form>
+        </div>
+
+
+
+        <div>
+            <p> Thanks for visiting my page! If you like my page please press the like button so I know to create more contact like this!!</p>
+             <button id="counter-inc" type="button" class="prirary">Likes</button>
+             <span id="counter-value">0</span>
+
+             <script src="script.js"></script>
+        </div>
+       
+
+    </section>
+ </main>   
+
+
+</body>
+
+</html>
