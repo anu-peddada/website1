@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Anu's Portfolio</title>
+  <link href="styles.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+<style>
+  .projects-content {
+    padding: 100px 40px 40px 40px;
+    background-color: rgb(240, 240, 240);
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .project-item {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .project-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    max-height: 400px;
+    object-fit: cover;
+  }
+  
+  .project-item h3 {
+    color: rgb(142, 135, 247);
+    font-size: 28px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .project-item p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    max-width: 800px;
+    margin-top: 15px;
+  }
+  
+  .tech-icons {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .tech-icon {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+  }
+  
+  .tech-icon:hover {
+    transform: scale(1.2);
+  }
+  
+  @media (min-width: 768px) {
+    .project-item {
+      flex-direction: row;
+      text-align: left;
+    }
+    
+    .project-item img {
+      max-width: 400px;
+      flex-shrink: 0;
+    }
+    
+    .project-item h3,
+    .project-item p {
+      text-align: left;
+    }
+    
+    .tech-icons {
+      justify-content: flex-start;
+    }
+  }
+</style>
+</head>
+
+<body>
+  <header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="resume.html">Resume</a>
+    <a href="projects.html">Projects</a>
+    <div class="dropdown">
+      <a href="#" class="dropdown-toggle">More</a>
+      <div class="dropdown-menu">
+        <a href="core-story.html">My Core Story</a>
+        <a href="statement-of-interest.html">Statement of Interest</a>
+        <a href="generative-ai-statement.html">Generative AI Statement</a>
+        <a href="page-design.html">Page Design</a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+ <main>
+    <section class="projects-content">
+        <h1>My Projects</h1>
+        
+        <div class="project-item">
+            <img src="enc.jpg" alt="MPR Communication Tool">
+            <div>
+                <h3>MPR Communication Tool</h3>
+                <div class="tech-icons">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="tech-icon" title="JavaScript">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" class="tech-icon" title="HTML">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" class="tech-icon" title="CSS">
+                </div>
+                <p>Developed and deployed a custom follow-up communication tool integrated into loan origination software, enabling individualized messaging for stakeholders per loan order. Strategically designed an input interaction box to optimize data entry, improving downstream data organization and visualization into Snowflake and DOMO.</p>
+            </div>
+        </div>
+        
+        <div class="project-item">
+            <img src="stock.jpg" alt="Stock Prediction Project">
+            <div>
+                <h3>Stock Prediction Project</h3>
+                <div class="tech-icons">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" class="tech-icon" title="C++">
+                </div>
+                <p>Collaborated with a team to build a modular file system and terminal emulator in C++ using OOP and design patterns (Factory, Command, Proxy, Visitor, Strategy). Implemented core commands (ls, rm, cat, cp, etc.), password protection, and macro command support. Focused on extensibility, clean architecture, and real-world system design principles.</p>
+            </div>
+        </div>
+        
+        <div class="project-item">
+            <img src="cont.webp" alt="Google Developer Project">
+            <div>
+                <h3>Google Developer Project</h3>
+                <div class="tech-icons">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="tech-icon" title="JavaScript">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" class="tech-icon" title="HTML">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" class="tech-icon" title="CSS">
+                </div>
+                <p>Developed digital booking system for 10 salons, to help nail salons increase productivity and organize day-to-day business activities, streamlining efficiency of community business practices.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class = "contact-me" id = "contact">
+        <div class="contact-container">
+            <h1>Contact Information</h1>  
+
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-details">
+                        <h3>Email</h3>
+                        <a href="mailto:a.peddadad@wustl.edu">a.peddadad@wustl.edu</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-details">
+                        <h3>Phone</h3>
+                        <p>000-000-0000</p>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form">
+                <h2>Get In Touch</h2>
+                <input type="text" placeholder="Enter your name" id="name" name="name">
+                <input type="email" placeholder="Enter your email" id="email" name="email">
+                <textarea placeholder="Enter your message" id="message" name="message" rows="4"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+ </main>   
+
+
+</body>
+
+
+</html>
+
