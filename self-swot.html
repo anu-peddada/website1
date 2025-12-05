@@ -3,11 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Me - Anu's Portfolio</title>
+  <title>Self-SWOT - Anu's Portfolio</title>
   <link href="styles.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+  <style>
+    .content-section {
+      padding: 100px 40px 40px 40px;
+      background-color: rgb(240, 240, 240);
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    
+    .content-section h1 {
+      color: #333;
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .swot-image {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+  </style>
 </head>
 
 <body>
@@ -32,7 +57,12 @@
   </header>
 
   <main>
-    <section class="contact-me">
+    <section class="content-section">
+      <h1>Self-SWOT</h1>
+      <img src="table.png" alt="Self-SWOT Analysis Table" class="swot-image">
+    </section>
+
+    <section class="contact-me" id="contact">
       <div class="contact-container">
         <h1>Contact Information</h1>  
 
@@ -66,7 +96,7 @@
         </form>
       </div>
     </section>
-
+    
     <script src="script.js"></script>
   </main>   
 
